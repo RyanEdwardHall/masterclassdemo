@@ -1,8 +1,21 @@
 .container {
   display: flex;
+  border-bottom: 1px solid gray;
+  margin: 4px 0;
+  padding-bottom: 2px;
 }
 
+.listContainer {
+  max-height: 100vh;
+}
 .textContainer {
   display: flex;
   flex-direction: column;
+}
+
+.name {
+  font-size: 2em;
+}
+.title {
+  font-size: 1em;
 }
